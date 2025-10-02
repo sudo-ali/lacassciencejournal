@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers • LACAS SCIENCE JOURNAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/jpeg" href="./WhatsApp Image 2025-10-02 at 19.05.27_bb73366d.jpg">
+    <link rel="shortcut icon" href="./WhatsApp Image 2025-10-02 at 19.05.27_bb73366d.jpg">
+    <script defer src="./js/papers.js"></script>
+    <meta name="theme-color" content="#10061a">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="./index.html" class="brand">
+                <img class="brand-logo" src="./WhatsApp Image 2025-10-02 at 19.05.27_bb73366d.jpg" alt="LSJ logo">
+                <span class="brand-text">LACAS SCIENCE JOURNAL</span>
+            </a>
+            <nav class="nav">
+                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link active" href="./papers.html">Papers</a>
+                <a class="nav-link" href="./team.html">Team</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card section">
+            <h1 class="section-title">Research papers</h1>
+            <div class="toolbar">
+                <input id="search" class="input search" type="search" placeholder="Search by title, author, or keyword…">
+                <select id="yearFilter" class="input select">
+                    <option value="">All years</option>
+                </select>
+            </div>
+            <div id="papersList" class="cards"></div>
+            <template id="paperCardTpl">
+                <article class="paper-card card hover-float">
+                    <div class="paper-meta">
+                        <h3 class="paper-title"></h3>
+                        <div class="paper-sub">By <span class="paper-authors"></span> • <span class="paper-year"></span></div>
+                        <p class="paper-abs"></p>
+                        <div class="paper-tags"></div>
+                    </div>
+                    <div class="paper-actions">
+                        <a class="btn small primary" target="_blank">Open PDF</a>
+                    </div>
+                </article>
+            </template>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> LACAS SCIENCE JOURNAL</div>
+            <div class="footer-links">
+                <a href="./contact.html">Contact</a>
+                <a href="./team.html">Team</a>
+                <a href="./papers.html">Papers</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
