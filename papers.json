@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Quantum Entanglement in High School Labs",
+    "authors": "A. Khan, S. Iqbal",
+    "year": 2025,
+    "keywords": "physics, quantum, education",
+    "abstract": "A practical guide to demonstrating basic entanglement concepts using accessible materials.",
+    "pdf": "https://www.africau.edu/images/default/sample.pdf"
+  },
+  {
+    "title": "Soil Microbiome Diversity Across Urban Gardens",
+    "authors": "U. Tariq, M. Raza",
+    "year": 2024,
+    "keywords": "biology, ecology, microbiome",
+    "abstract": "Comparative analysis of microbial diversity in soils from different urban green spaces.",
+    "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+  },
+  {
+    "title": "Optimizing Solar Panel Angles in Lahore",
+    "authors": "F. Ali, N. Ahmed",
+    "year": 2023,
+    "keywords": "energy, solar, engineering",
+    "abstract": "An empirical study on seasonal tilt optimization for rooftop installations.",
+    "pdf": "https://www.clickdimensions.com/links/TestPDFfile.pdf"
+  },
+  {
+    "title": "Machine Learning for School Attendance Prediction",
+    "authors": "H. Zubair",
+    "year": 2025,
+    "keywords": "data science, education, machine learning",
+    "abstract": "Evaluates models to predict student attendance using anonymized academic data.",
+    "pdf": "https://www.africau.edu/images/default/sample.pdf"
+  },
+  {
+    "title": "Water Quality Assessment in Local Canals",
+    "authors": "S. Batool, R. Malik",
+    "year": 2022,
+    "keywords": "chemistry, environment, water",
+    "abstract": "Testing physico-chemical parameters and proposing low-cost filtration approaches.",
+    "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+  },
+  {
+    "title": "Low-cost Spectrometer Build and Calibration",
+    "authors": "J. Rehman",
+    "year": 2023,
+    "keywords": "physics, instrumentation",
+    "abstract": "Design and calibration of a DIY spectrometer using a smartphone camera.",
+    "pdf": "https://www.clickdimensions.com/links/TestPDFfile.pdf"
+  }
+]
+
